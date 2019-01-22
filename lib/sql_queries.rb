@@ -6,7 +6,7 @@ end
 
 def selects_all_bears_names_and_orders_in_alphabetical_order
   "
-  SELECT name FROM bears ORDER BY name asc
+  SELECT name FROM bears ORDER BY name ASC
   "
 end
 
