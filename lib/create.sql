@@ -5,5 +5,5 @@ age INTEGER,
 gender TEXT,
 color TEXT,
 temperament TEXT,
-alive 
+alive INTEGER
 )
