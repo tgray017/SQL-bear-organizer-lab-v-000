@@ -36,7 +36,7 @@ end
 
 def counts_number_of_bears_with_goofy_temperaments
   "
-  SELECT temperament, count(*) as count FROM bears WHERE temperament = 'goofy' GROUP BY temperament;
+  SELECT count(*) as count FROM bears WHERE temperament = 'goofy' GROUP BY temperament;
   "
 end
 
